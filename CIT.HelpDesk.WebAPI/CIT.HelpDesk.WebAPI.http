@@ -1,0 +1,6 @@
+@CIT.HelpDesk.WebAPI_HostAddress = http://localhost:5177
+
+GET {{CIT.HelpDesk.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
