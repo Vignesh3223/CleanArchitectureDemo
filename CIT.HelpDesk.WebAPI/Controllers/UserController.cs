@@ -37,7 +37,7 @@ namespace CIT.HelpDesk.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Response>> Register(CreateUserCommand newUser)
+        public async Task<ActionResult<Response>> CreateUser(CreateUserCommand newUser)
         {
             return await _mediator.Send(newUser);
         }
